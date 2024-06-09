@@ -1,0 +1,14 @@
+footer {
+    padding-left: var(--rtc-padding-xl);
+    
+}
+
+footer > h3 {
+    display: flex;
+    padding-bottom: var(--rtc-padding-s);
+    font-size: 1.3rem;
+}
+
+#footerDiv > p{
+    padding-bottom: var(--rtc-padding-xs);
+}

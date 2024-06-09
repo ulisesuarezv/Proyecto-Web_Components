@@ -1,0 +1,74 @@
+#about_me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--rtc-padding-xl);
+}
+
+#about_me > h2 {
+    padding: var(--rtc-padding-m);
+    padding-bottom: var(--rtc-padding-xl);
+    font-size: var(--rtc-size-h2);
+    font-weight: 600;
+}
+
+#education {
+    display: flex;
+    padding: var(--rtc-padding-xl);
+}
+
+#education_div > h2 {
+    padding-bottom: var(--rtc-padding-s);
+    font-size: var(--rtc-size-h2);
+}
+
+#experience {
+    display: flex;
+    flex-direction: column;
+    padding: var(--rtc-padding-xl);
+    align-items: center;
+}
+
+#experience > h2 {
+    font-size: var(--rtc-size-h2);
+}
+
+#divExperience {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: var(--rtc-padding-l);
+}
+
+#divExperience > h2 {
+    padding-bottom: var(--rtc-padding-l);
+}
+
+.contentInfo {
+    display: flex;
+    flex-direction: column;
+    padding: var(--rtc-padding-l);
+}
+
+#skills {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: var(--rtc-padding-xl);
+}
+
+#skills > h2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: var(--rtc-padding-xl);
+    font-size: var(--rtc-size-h2);
+}
+
+.skills_info {
+    display: flex;
+    justify-content: space-evenly;
+    padding: var(--rtc-padding-s);
+    border: solid 1px var(--rtc-color-1);
+    border-radius: 1rem;
+}

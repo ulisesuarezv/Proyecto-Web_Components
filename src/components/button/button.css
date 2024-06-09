@@ -1,0 +1,16 @@
+#divButton {
+    display: flex;
+    justify-content: center;
+    padding: var(--rtc-padding-l);
+}
+
+#backToTop {
+    cursor: pointer;
+    color: inherit;
+    border: solid 0.5px;
+    border-radius: var(--rtc-border-radius);
+    background-color: var(--rtc-color-2);
+    width: 7rem;
+    height: 2rem;
+}
+

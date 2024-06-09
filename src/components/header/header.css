@@ -1,0 +1,25 @@
+#header_content {
+    display: flex;
+    justify-content: space-around;
+    padding: var(--rtc-padding-m);
+    align-items: center;
+}
+
+#header_content > h1 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.li_nav {
+    margin: var(--rtc-margin-xs);
+}
+
+#nav_list > ul > a {
+    padding: var(--rtc-margin-xs);
+    cursor: pointer;
+    color: inherit;
+    border-radius: var(--rtc-border-radius);
+    background-color: var(--rtc-color-2);
+    text-decoration: none;
+    border: solid 0.5px;
+}
